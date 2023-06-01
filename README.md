@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## please run server 
+ Please server application in order to 
+
 ## Available Scripts
 
 In the project directory, you can run:
