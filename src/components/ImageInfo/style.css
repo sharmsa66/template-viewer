@@ -1,0 +1,28 @@
+
+.details {
+	border-bottom: 1px solid #ddd;
+	float: right;
+	text-align: left;
+	width: 250px;
+}
+
+.details p {
+	border-top: 1px solid #ddd;
+	font-size: 12px;
+	margin: 0;
+	padding: 7px 0;
+    
+}
+
+.details strong {
+	background: #555;
+	color: #fff;
+	font-size: 10px;
+	font-weight: normal;
+	padding: 2px 5px;
+	text-transform: uppercase;
+}
+
+.details span {
+ padding-left: 4px;
+}

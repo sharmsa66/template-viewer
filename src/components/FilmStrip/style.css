@@ -1,0 +1,111 @@
+.film-strip {
+    display: flex;
+   
+    position: relative;
+    width: 650px;
+    border: 1px solid #ddd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 auto;
+ 
+    padding: 10px 45px;
+
+
+}
+
+
+
+.film-strip .next {
+    align-self: flex-start;
+    justify-items: center;
+}
+
+.film-strip .previous {
+    align-self: flex-end;
+    justify-content: center;
+}
+
+
+
+
+.film-strip a {
+    color: #777;
+    float: left;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+.film-strip img {
+    border: 5px solid transparent;
+    display: block;
+    margin: 0 0 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.film-strip a:hover img {
+    border-color: #eee;
+}
+
+.film-strip a:active img {
+    border-color: #aaa;
+}
+
+.film-strip .active img,
+.film-strip .active:hover img {
+    border-color: #a41d0f;
+}
+
+.film-strip a span {
+    background: #eee;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 5px auto 0 auto;
+    padding: 2px 15px;
+}
+
+.film-strip a:hover span {
+    background: #ddd;
+}
+
+.film-strip a:active span {
+    background: #aaa;
+    color: #fff;
+}
+
+.film-strip a.active span {
+    background: #a41d0f;
+    color: #fff;
+}
+
+.film-strip .previous,
+.film-strip .next {
+    float: none;
+    height: 24px;
+    position: absolute;
+    text-indent: -9999em;
+    top: 64px;
+    width: 24px;
+}
+
+
+.previous:hover,
+.next:hover {
+    opacity: .6;
+}
+
+.previous:active,
+.next:active {
+    opacity: 1;
+}
+
+.disabled {
+    opacity: .2 !important;
+}
